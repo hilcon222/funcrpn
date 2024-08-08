@@ -11,7 +11,8 @@ dynamic = ["version", "description"]
 requires-python = ">= 3.8"
 
 [project.urls]
-Home = "https://github.com/hilcon222/funcrpn"
+Home = "https://funcrpn.sourceforge.io"
+Repository = "https://github.com/hilcon222/funcrpn"
 Issues = "https://github.com/hilcon222/funcrpn/issues"
 
 [scripts]
