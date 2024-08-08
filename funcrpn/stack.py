@@ -1,3 +1,6 @@
+"Functions to manipulate the stack"
+
+
 def push(stack: list, item) -> list:
     """Pushes an element into the stack
     Keyword arguments:
