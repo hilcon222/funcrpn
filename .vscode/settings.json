@@ -3,5 +3,6 @@
         "funcrpn"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "makefile.makePath": "\"C:\\Program Files (x86)\\GnuWin32\\bin\\make.exe\""
 }
