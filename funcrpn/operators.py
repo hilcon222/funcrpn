@@ -29,7 +29,7 @@ def div(s):
 def pow(s):
     s1, op1 = stack.pop(s)
     s2, op2 = stack.pop(s1)
-    return stack.push(s2, op1**op2)
+    return stack.push(s2, op2**op1)
 
 
 def sqrt(s):
