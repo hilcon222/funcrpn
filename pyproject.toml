@@ -16,4 +16,4 @@ Repository = "https://github.com/hilcon222/funcrpn"
 Issues = "https://github.com/hilcon222/funcrpn/issues"
 
 [scripts]
-dogelang = "funcrpn.__main__:main"
+funcrpn = "funcrpn.__main__:main"
