@@ -43,14 +43,19 @@ def evaluate(s, val):
             return operators.power(s)
         case "sq":
             return operators.sqrt(s)
+        case "":
+            print(s[-1])
+            return s
         case _:
             raise NotACommandError("that is not an existent command")
 
 
 def main():
     "Main function"
-    # s = []
-    print("ciao")
+    s = []
+    while 1:
+        inp = input()
+        s = evaluate(s, inp)
 
 
 if __name__ == '__main__':
